@@ -42,7 +42,7 @@ add condition field=if_uuid matchtype=equal data=338CD001-2244-31F1-AAAA-9000380
 add condition field=remote_user_token matchtype=equal data=D:(A;;KA;;;DA)
 add filter
 add rule layer=um actiontype=block
-add condition field=if_uuid matchtype=equal data=367ABB81-9844-35F1-AD32-98F038001003
+add condition field=if_uuid matchtype=equal data=338CD001-2244-31F1-AAAA-900038001003
 add filter
 quit
 ```
